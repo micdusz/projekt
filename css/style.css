@@ -73,7 +73,7 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     backface-visibility: hidden;
-    animation: slider 30s;
+    animation: slider linear 30s;
     background-image: url('../img/produkt1.jpg');
     animation-timing-function: ease-in-out;
 }
