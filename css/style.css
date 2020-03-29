@@ -166,7 +166,7 @@ img {
 }
 
 .galimg:hover {
-    scale: 1.5;
+    scale: 150%;
     transform: rotate(10deg);
     transition: 0.2s;
 }
