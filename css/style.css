@@ -69,9 +69,9 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     backface-visibility: hidden;
-    animation: slider 30s linear infinite 0s;
+    animation: slider 20s linear infinite 0s;
     background-image: url('../img/produkt1.jpg');
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
 }
 
 .tlo2 {
