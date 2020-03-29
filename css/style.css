@@ -9,11 +9,7 @@
 @font-face {
     font-family: 'ranchoregular';
     src: url('fonts/rancho-regular-webfont.eot');
-    src: url('fonts/rancho-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/rancho-regular-webfont.woff2') format('woff2'),
-         url('fonts/rancho-regular-webfont.woff') format('woff'),
-         url('fonts/rancho-regular-webfont.ttf') format('truetype'),
-         url('fonts/rancho-regular-webfont.svg#ranchoregular') format('svg');
+    src: url('fonts/rancho-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/rancho-regular-webfont.woff2') format('woff2'), url('fonts/rancho-regular-webfont.woff') format('woff'), url('fonts/rancho-regular-webfont.ttf') format('truetype'), url('fonts/rancho-regular-webfont.svg#ranchoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,7 +35,7 @@ body {
     font-size: calc(5% + 1vw + 1vh);
 }
 
-.tekst{
+.tekst {
     font-weight: 600;
 }
 
@@ -77,30 +73,36 @@ html {
     background-image: url('../img/produkt1.jpg');
     animation-timing-function: ease-in-out;
 }
-.tlo2{
-    background-color:rgba(80,80,80,.3);;
+
+.tlo2 {
+    background-color: rgba(80, 80, 80, .3);
+    ;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0px!important;
 }
-
 
 @keyframes slider {
     0% {
         background-image: url('../img/produkt2.jpg');
+        animation-delay: 2s;
     }
     25% {
         background-image: url('../img/produkt1.jpg');
+        animation-delay: 2s;
     }
     50% {
         background-image: url('../img/produkt3.jpg');
+        animation-delay: 2s;
     }
     75% {
         background-image: url('../img/produkt4.png');
+        animation-delay: 2s;
     }
     100% {
         background-image: url('../img/produkt5.png');
+        animation-delay: 2s;
     }
 }
 
@@ -177,31 +179,34 @@ table {
     margin-left: 2em;
 }
 
-input{
+input {
     width: 100%;
     padding: 5px;
     margin: 5px;
 }
-textarea{
+
+textarea {
     width: 100%;
     padding: 5px;
     margin: 5px;
     height: 7em;
-    
 }
-button{
+
+button {
     display: block;
     margin: 0.5em auto;
     padding: 0.5em 1em;
     border-radius: 0.2em;
 }
-.footer{
+
+.footer {
     background-color: #343a40;
     padding: 1em;
     text-align: center;
     color: #fff;
 }
-.nazwa{
+
+.nazwa {
     font-style: italic;
     font-family: 'ranchoregular';
 }
