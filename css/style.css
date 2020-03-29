@@ -72,7 +72,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
     animation: slider 30s linear 0s;
     background-image: url('../img/produkt1.jpg');
 }
