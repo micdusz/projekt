@@ -85,24 +85,27 @@ html {
 
 @keyframes slider {
     0% {
-        background-image: url('../img/produkt2.jpg');
-        animation-delay: 2s;
-    }
-    25% {
         background-image: url('../img/produkt1.jpg');
-        animation-delay: 2s;
+
     }
-    50% {
+    20% {
+        background-image: url('../img/produkt2.jpg');
+
+    }
+    40% {
         background-image: url('../img/produkt3.jpg');
-        animation-delay: 2s;
+
     }
-    75% {
-        background-image: url('../img/produkt4.png');
-        animation-delay: 2s;
+    60% {
+        background-image: url('../img/produkt4.jpg');
+
     }
-    100% {
-        background-image: url('../img/produkt5.png');
-        animation-delay: 2s;
+    80% {
+        background-image: url('../img/produkt5.jpg');
+
+    }
+    100%{
+        background-image: url('../img/produkt1.jpg');
     }
 }
 
