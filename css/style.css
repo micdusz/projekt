@@ -73,12 +73,16 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     backface-visibility: hidden;
-    animation: slider infinite 30s;
+    animation: slider 30s linear infinite 0s;
     background-image: url('../img/produkt1.jpg');
     animation-timing-function: ease-in-out;
 }
 .tlo2{
     background-color:rgba(80,80,80,.3);;
+}
+
+::-webkit-scrollbar{
+    width: 0px!important;
 }
 
 
